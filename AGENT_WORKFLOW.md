@@ -18,6 +18,11 @@ The following AI tools were used during development:
   - React component boilerplate
   - Express route scaffolding
 
+### 3. Cursor AI / Editor AI
+- Used for:
+  - Multi-file code generation
+  - Refactoring services and repositories
+  - Improving code structure
 
 ---
 
