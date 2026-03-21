@@ -32,7 +32,7 @@ export function createApp(deps: {
   const applyBankedSurplus = new ApplyBankedSurplus(deps.bankRepository, deps.complianceRepository, computeComplianceBalance);
   const createPool = new CreatePool(deps.poolRepository);
 
-  app.get('/health', (_req, res) => res.json({ ok: true }));
+  app.get('/', (_req, res) => res.json({ ok: true }));
 
   app.get('/routes', async (req, res) => {
     const year = req.query.year ? Number(req.query.year) : undefined;
